@@ -30,6 +30,7 @@ def game(you,comp):
     
 w=l=0
 n=int(input("Enter number of times you wish to play at once: \n"))
+print("PLEASE ENTER ALL CHOICES IN LOWERCASE LETTERS OR IT WILL BE CONSIDERED INVALID CHOICE AND YOU WILL LOSE AUTOMATICALLY ")
 print("----GAME OF STONE PAPER KAICHI STARTS----")
 while n>0:  
     y= input("Your turn : Stone(s), Paper(p), Kaichi(k)  \n")
